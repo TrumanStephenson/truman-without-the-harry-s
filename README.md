@@ -1,4 +1,5 @@
-This is my working Portfolio. It has several featured projects on it, and demonstrates my capabilities with front end software developement. 
-
-Here is the link to the Codepen.io page that I am converting it over from.
-https://codepen.io/TrumanStephenson/full/wvZxwxr
+My main portfolio. Demonstrating my frontend dev skills.
+<br>
+I oringally was going to port over my work from codepen, but stopped since I got an actual job as a software engineer analyst.
+<br>
+But I have decide to revive it for peace of mind.
