@@ -1,0 +1,90 @@
+  <section class="about-me" id="about">
+    <div class="about-me-content">
+    <p>
+      My name is Truman Stephenson.<br><br> I am born and raised in the lower 48 but my family is from South East Alaska. 
+      We are Tlingit; Frog house of Raven Moiety. 
+      I have been interested in Software Developement for several years now. 
+      First starting with the intent to make video games, and learning C#. 
+      But I have since grown from this and got into front-end software developement and learned useful 
+      skills with HTML, CSS, and JavaScript; and more recently, Java with the Codefy Foundation. 
+      Take a look at all the progress so far!
+    </p>
+    </div>
+  </section>
+
+  <div class="buffer-img-parallax"><img src="\assets\images\craig-ak-1.JPG" alt="Craig-Alaska"></div>
+  
+   <!--YELLOW CEDAR-->
+  <section class="project-1" id="project-1">
+      <div class="project-1-text">
+        
+        <p class="project-1-info">
+          <br><br>This project was part of a compilation of 
+          certificate projects to get certified for freecodecamp.org. 
+          I wanted to dedicate it to the Alaskan Yellow Cedar. 
+          It is slowly becomming an endagered species and if better precautions aren't take, 
+          we could lose the tree in the coming years. So I wanted to commemorate it's existence eternally.
+        </p>
+        <div class="project-1-preview">
+          <a href="https://codepen.io/TrumanStephenson/full/KKYzwLd"><iframe class="preview-1" src="\assets\images\Yellow-cedar tribute image.PNG" alt="yellow-cedar-tribute-page"></iframe></a>
+        </div>
+      </div>
+    
+  </section>
+  
+  <div class="buffer-img-parallax"></div>   
+    
+    <img class="project-2-container" src="\assets\images\snow-flower-2.PNG" alt="snow-plant">
+    
+    <!--ECOLOGICAL BOOKS LANDING PAGE-->
+  <section class="project-2">
+    <div class="project-2-text">
+      <p class="project-2-info">
+        Ecological Books, Landing Page<br><br>This is a landing page for some ecological books 
+        I have read and enjoyed. I wanted to showcase their descriptions for others to enjoy. 
+        The page even includes links to Amazon, in case someone is interested in purchasing one of them. 
+        This was also included as part of the certificate requirement.
+      </p>
+      
+      <iframe class="preview-2" src="https://codepen.io/TrumanStephenson/pen/ZEZxaNX"></iframe>
+    </div>
+  </section>
+  
+  <img class="project-3-container" src="\assets\images\wild-fire-background.PNG" alt="wild-fire">
+  
+  <section class="project-3">
+    <div class="project-3-text">
+      <p class="project-3-info">
+        Wild-Fire Readiness App<br><br>This app was intended to assist with people living in fire prone areas. It provided a check list of supplies necessary for at least 3 days without utilities. As well as, utilized a local weather API with JavaScript to connecte local weather information to the users. It was also intended to give out emergency response alerts if they were in an evacuation zone.
+      </p>
+      
+      <iframe class="preview-3" src="https://github.com/TrumanStephenson/wildfire-app.git"></iframe>
+    </div>
+  </section>
+  
+    
+    <img class="project-4-container" src="https://outdoortroop.com/wp-content/uploads/2019/05/65049925_m-1024x683.jpg" alt="archery-bag">
+    
+   <section class="project-4">
+    <div class="project-4-text">
+      <p class="project-4-info">
+        Guide to setup a compound bow<br><br>This page was a detailed setup-guide for a compound bow. I practice archery regularly and wanted to dedicate a part of this certficate to one of my hobbies. It is a great sport and the community is very inviting. Take a look at the guide!
+      </p>
+      
+      <iframe class="preview-4" src="https://codepen.io/TrumanStephenson/pen/WNWOKQJ"></iframe>
+    </div>
+  </section>
+  <img class="project-5-container" alt="filler-img"> 
+
+  <footer id="contact">
+    <h3 id="contact-header">Contact</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/truman-stephenson-0b5413194/4">LinkedIn</a></li>
+      <li><a href="https://wa.link/fz84vf">WhatsApp</a></li>
+      <li><a href="https://github.com/TrumanStephenson">GitHub</a></li>
+    </ul>
+      
+        <div class="frog-container">
+       <a href="https://spiritsofthewestcoast.com/collections/roy-henry-vickers"><img class="tlingit-frog" src="https://i.pinimg.com/originals/52/a7/21/52a72129eb77eee9e146212568249652.jpg"
+           alt="tlingit-frog"></a></div>
+  </footer>
