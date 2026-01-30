@@ -69,8 +69,6 @@ body, html {
     left: 0;
 }
 
-
-
 /* About Me Page Stuff */
 .about-me-section {
     color: #FFFFFF;
@@ -91,3 +89,103 @@ body, html {
     margin-bottom: 10px;
     margin-right: 10px;
 } 
+
+/* seperation - testing area */
+
+header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  left: 95%;
+  top: 0.5rem;
+}
+
+nav {
+  padding: 0 14px;
+  display: inline-block;
+}
+
+a.active {
+    pointer-events: none;
+    cursor: default;
+    color: #5D7B5F;
+    text-decoration: underline;
+}
+
+.menu {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+[class*=bar-] {
+  background: white;
+  height: 3px;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+.bar-1 {
+  width: 30px;
+  top: 10px;
+}
+
+.bar-2 {
+  width: 30px;
+  top: 18px;
+}
+
+.dropdown-menu {
+  padding: 10px 0;
+  top: 30px;
+  /* right: -150px; */
+  /* display: block; */
+  position: absolute;
+  /* opacity: 0; */
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.item {
+  width: 130px;
+  margin: 0;
+  padding: 5px 0;
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-align: right;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.item:hover {
+  opacity: 0.5;
+  color: #5D7B5F;
+  /* text-decoration: none; */
+}
+.item:focus {
+  letter-spacing: 2px;
+}
+.item:focus-within::before {
+  width: 40px;
+}
+
+.menu:hover .bar-1 {
+  width: 30px;
+  top: 15px;
+  transform: rotate(135deg);
+}
+.menu:hover .bar-2 {
+  top: 15px;
+  transform: rotate(-135deg);
+}
+.menu:hover .dropdown-menu {
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}

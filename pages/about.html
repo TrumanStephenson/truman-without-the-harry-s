@@ -9,26 +9,25 @@
         <title>Not The Truman Show</title>
     </head>
     <body>
-        <header class="navbar">
-            <button 
-                class="navbar__toggle"
-                aria-controls="navbar-menu"
-                aria-expanded="false"
-                type="button"
-            >
-                <span class="sr-only">Toggle navigation menu</span>
-                <span aria-hidden="true">☰</span>
-            </button>
-            <nav class="navbar_menu" id="navbar-menu">
-                <ul class="navbar_list">
-                    <li><a class="navbar__link" href="/index.html">Home</a></li>
-                    <li><a class="navbar__link" href="/pages/my-progress.html">My Work</a></li>
-                    <li><a class="navbar__link" href="#contact">Contact</a></li>
-                    <li><a class="navbar__link" href="/pages/about.html">About</a></li>
-                    <li><a class="navbar__link" href="https://www.linkedin.com/in/truman-stephenson-0b5413194/">LinkedIn</a></li>
-                    <li><a class="navbar__link" href="http://ankn.uaf.edu/ancr/southeast/tlingitmap/TlingitMap.pdf">Tlingit</a></li>
-                </ul>
 
+        <!-- 
+            This whole nav bar relies on this:
+            https://codepen.io/uzcho_/pen/mZavjO
+        -->
+        <header>
+            <nav>
+                <div class="menu">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="dropdown-menu">
+                    <a class="item" href="../index.html">Home</a>
+                    <a class="item active" href="#" aria-current="page">About</a>
+                    <a class="item" href="/pages/my-progress.html">Portfolio</a>
+                    <a class="item" href="/assets/pdfs/TrumanResume.pdf" target="_blank">Resume</a>
+                    <a class="item" href="https://www.linkedin.com/in/truman-stephenson-0b5413194/" target="_blank">LinkedIn</a>
+                    <a class="item" href="/pages/contact.html">Contact</a>
+                </div>
+                </div>
             </nav>
         </header>
         <main>
