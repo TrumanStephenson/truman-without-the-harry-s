@@ -71,44 +71,39 @@ body, html {
 
 /* About Me Page Stuff */
 .about-me-section,
-section {
+.portfolio-section {
   color: #FFFFFF;
   font-weight: 300;
-  padding: 3.5rem;
+  padding: 1.5rem;
   font-size: 1.5rem;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
-.indent-1 {
-  float: left;
-}
-    
-.indent-1 section {
-  width: auto !important;
-  float: left;
+.portfolio-section {
+  display: grid; 
+  grid-template-columns: 1fr 30%;
+  gap: 10px;
+  margin-left: 7% !important;
 }
 
 #landing_page {
-  width: 50%;
-  height: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 150%;
+  height: 100%;
 }
 
 
 /* Frog image at the bottom. Wil take you to Roy Henry Vickers, the orginal artist. */
-.tlingit-frog {
+/* .tlingit-frog {
   width: 6%;
   position: absolute;
   right: 0;
   bottom: 0;
   margin-bottom: 10px;
   margin-right: 10px;
-} 
+}  */
 
-/* seperation - testing area */
-
+/* Navigation Bar CSS */
 header {
   width: 100%;
   display: flex;
@@ -138,56 +133,6 @@ a.active {
   position: relative;
   cursor: pointer;
 }
-
-[class*=bar-] {
-  background: white;
-  height: 3px;
-  right: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-}
-
-.bar-1 {
-  width: 30px;
-  top: 10px;
-}
-
-.bar-2 {
-  width: 30px;
-  top: 18px;
-}
-
-.dropdown-menu {
-  padding: 10px 0;
-  top: 30px;
-  position: absolute;
-  visibility: hidden;
-  transition: all 0.5s ease;
-}
-
-.item {
-  width: 130px;
-  margin: 0;
-  padding: 5px 0;
-  display: inline-block;
-  position: relative;
-  color: white;
-  text-align: right;
-  transition: all 0.5s ease;
-  text-decoration: none;
-}
-
-.item:hover {
-  opacity: 0.5;
-  color: #5D7B5F;
-}
-.item:focus {
-  letter-spacing: 2px;
-}
-.item:focus-within::before {
-  width: 40px;
-}
-
 .menu:hover .bar-1 {
   width: 30px;
   top: 15px;
@@ -201,6 +146,51 @@ a.active {
   right: 0;
   opacity: 1;
   visibility: visible;
+}
+
+.dropdown-menu {
+  padding: 10px 0;
+  top: 30px;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+[class*=bar-] {
+  background: white;
+  height: 3px;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+.bar-1 {
+  width: 30px;
+  top: 10px;
+}
+.bar-2 {
+  width: 30px;
+  top: 18px;
+}
+
+.item {
+  width: 130px;
+  margin: 0;
+  padding: 5px 0;
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-align: right;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.item:hover {
+  opacity: 0.5;
+  color: #5D7B5F;
+}
+.item:focus {
+  letter-spacing: 2px;
+}
+.item:focus-within::before {
+  width: 40px;
 }
 
 .nice-mountains {
