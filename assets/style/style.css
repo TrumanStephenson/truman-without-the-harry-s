@@ -111,12 +111,6 @@ body, html {
   font-size: 25px;
 }
 
-#landing_page {
-  flex: 0 0 40%;
-  height: 300px;
-  border: none;
-}
-
 
 /* Frog image at the bottom. Wil take you to Roy Henry Vickers, the orginal artist. */
 /* .tlingit-frog {
@@ -218,21 +212,46 @@ a.active {
   width: 40px;
 }
 
-.nice-mountains {
+/* Parallax Sections */
+.nice-mountains,
+.wild-fire {
   width: 100%;
-  border-radius: 15px;
+}
+.codepens,
+.btcs {
+  width: 50%;
+}
+#wild_fire_page {
+  flex: 0 0 40%;
+  height: 300px;
+  border: none;
 }
 
-.parallax-1 {
-  /* The image used */
-  background-image: url("/assets/images/hope-ca-mountain.jpeg");
-
-  /* Set a specific height */
+.parallax{
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.parallax-mtn {
+  background-image: url("/assets/images/hope-ca-mountain.jpeg");
+}
+.parallax-fire {
+  background-image: url("/assets/images/wild-fire-background.PNG");
+}
+.parallax-archery {
+  background-image: url("https://imgs.search.brave.com/-sy_72Dan4rZq9tan43fESEEL1adqC1Wfhw88r1VE90/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNC8x/MC8wNC8xMi8wOC9h/cmNoZXJ5LTQ3Mjkz/Ml82NDAuanBn");
+}
+.parallax-snow-flowers {
+  background-image: url("/assets/images/snow-flower-2.PNG");
+}
+.parallax-archery-nav {
+  background-image: url("https://imgs.search.brave.com/K_Q6FK1pp5II1SUnnzxU3ATJZttzc4lWBqNDwut6BQ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aHVudGVyc2ZyaWVu/ZC5jb20vYXNzZXRz/L2ltYWdlcy9ib3dz/ZWxlY3Rpb24zNS5q/cGc");
+}
+.parallax-yellow-cedar {
+  background-image: url("https://imgs.search.brave.com/e4zSYZKHte5di25AIQWO6mE2PcIivMd1EgKZIwYQZq0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vdGltZW5z/cGFjZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzL1RvdGVtX1Ry/b3QvTUpSXzk4NThf/SERSLUVkaXQuanBn/P3Jlc2l6ZT02MTAs/NDAyJnNzbD0x");
+}
+.btcs {
+
 }
