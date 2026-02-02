@@ -235,16 +235,16 @@ a.active {
   background-size: cover;
 }
 .parallax-mtn {
-  background-image: url("/assets/images/hope-ca-mountain.jpeg");
+  background-image: url("../assets/images/hope-ca-mountain.jpeg");
 }
 .parallax-fire {
-  background-image: url("/assets/images/wild-fire-background.PNG");
+  background-image: url("../assets/images/wild-fire-background.PNG");
 }
 .parallax-archery {
   background-image: url("https://imgs.search.brave.com/-sy_72Dan4rZq9tan43fESEEL1adqC1Wfhw88r1VE90/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNC8x/MC8wNC8xMi8wOC9h/cmNoZXJ5LTQ3Mjkz/Ml82NDAuanBn");
 }
 .parallax-snow-flowers {
-  background-image: url("/assets/images/snow-flower-2.PNG");
+  background-image: url("../assets/images/snow-flower-2.PNG");
 }
 .parallax-archery-nav {
   background-image: url("https://imgs.search.brave.com/K_Q6FK1pp5II1SUnnzxU3ATJZttzc4lWBqNDwut6BQ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aHVudGVyc2ZyaWVu/ZC5jb20vYXNzZXRz/L2ltYWdlcy9ib3dz/ZWxlY3Rpb24zNS5q/cGc");
