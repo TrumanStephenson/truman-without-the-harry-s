@@ -212,6 +212,48 @@ a.active {
   width: 40px;
 }
 
+/* Sub nav menu */
+/* Submenu container */
+.submenu {
+  position: relative;
+  display: inline-block;
+  width: 130px;            /* match .item width */
+  text-align: right;       /* match your menu alignment */
+}
+
+/* Hide submenu by default */
+.submenu-menu {
+  position: absolute;
+  top: 0;                 
+  right: 140px;  
+  padding: 10px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease;
+  pointer-events: none;  
+}
+.submenu:hover .submenu-menu,
+.submenu:focus-within .submenu-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.subitem {
+  width: 160px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+.submenu > .item::after {
+  content: "◀";
+  font-size: 0.75rem;
+  margin-left: 8px;
+  color: rgba(255,255,255,0.8);
+}
+.submenu:hover > .item::after {
+  color: #5D7B5F;
+}
+
+
 /* Parallax Sections */
 .nice-mountains,
 .wild-fire {
@@ -227,7 +269,7 @@ a.active {
   border: none;
 }
 
-.parallax{
+.parallax {
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
