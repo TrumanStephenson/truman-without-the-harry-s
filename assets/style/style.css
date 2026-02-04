@@ -46,13 +46,15 @@ body, html {
     margin-bottom: 40px;
     color: white;
 }
-.button-index {
+.button-index,
+.portfolio-links {
     text-decoration: none;
     color: white;
     margin: 0 10px;
     font-size: 20px;
 }
-.button-index:hover {
+.button-index:hover,
+.portfolio-links:hover {
     color: #5D7B5F;
 }
 
@@ -90,6 +92,20 @@ body, html {
 .portfolio-section p {
   flex: 1;
   font-size: 25px;
+}
+.portfolio-section-beginning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: #FFFFFF;
+}
+.portfolio-section-beginning p {
+  text-align: center;
+  font-size: 40px;
 }
 
 
@@ -260,7 +276,7 @@ a.active {
   border: none;
 }
 .parallax {
-  min-height: 500px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
