@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
 body, html {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #272C3F;
-  }
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #272C3F;
+}
   
   /* 
   This is for the main face of the screen. 
@@ -59,20 +63,32 @@ body, html {
 }
 
 /*This is for the repeating frog moon emblem*/
+.frog-container,
+body {
+  overflow-x: hidden;
+}
 .frog-moon-bar {
     height: 90px;
-    width: 100%;
-    background-image: url('https://i.pinimg.com/736x/56/90/54/569054a2bf3370abf4b0c3fd2e06bc0f.jpg');
+    width: 5076px;
+    background-image: url('https://i.pinimg.com/736x/56/90/54/569054a2bf3370abf4b0c3fd2e06bc0f.jpg') ;
     background-repeat: repeat-x; 
     background-size: contain;
     position: absolute; 
     bottom: 0;
     left: 0;
+    animation: slide 60s linear infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
 }
 
 /* Specific Sections */
-.about-me-section,
-.java-section {
+.about-me-section {
   color: #FFFFFF;
   font-weight: 300;
   padding: 1.5rem;
@@ -299,4 +315,48 @@ a.active {
 }
 .parallax-yellow-cedar {
   background-image: url("https://imgs.search.brave.com/e4zSYZKHte5di25AIQWO6mE2PcIivMd1EgKZIwYQZq0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vdGltZW5z/cGFjZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzL1RvdGVtX1Ry/b3QvTUpSXzk4NThf/SERSLUVkaXQuanBn/P3Jlc2l6ZT02MTAs/NDAyJnNzbD0x");
+}
+
+
+/* Java Terminal Style */
+.cheerpj-img {
+  width: clamp(90px, 8%, 180px);
+}
+.java-section {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.java-terminal-section {
+  color: white;
+  margin: auto;
+  max-width: 900px;
+}
+#terminal {
+  background: #000;
+  color: #0f0;
+  padding: 10px;
+  font-family: monospace;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+#terminal-input {
+  width: 100%; 
+  padding: 8px; 
+  font-family: monospace; 
+  font-size: 1rem; 
+  margin-top: 10px; 
+  border-radius: 3px; 
+  border: none;
+  background: #222; 
+  color: #0f0;
+  max-width: 885px;
+}
+#help-list {
+  margin-top: 10px; 
+  font-size: 0.9rem; 
+  color: #ccc;
 }

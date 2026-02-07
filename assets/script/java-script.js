@@ -5,12 +5,12 @@
 })();
 
 const terminal = document.getElementById("terminal");
-const input = document.getElementById("input");
+const input = document.getElementById("terminal-input");
 
 const commands = {
-    treelist: "decisionmaking.TreeList",
-    treelisttest: "decisionmaking.TreeListTest",
-    trees: "decisionmaking.Trees",
+    treelist: "TreeList",
+    treelisttest: "TreeListTest",
+    trees: "Trees",
     quarts: "QuartsToGallonsInteractiveException",
     geometry: "MethodsFor6GeometryForumlas",
     fivedice: "FiveDice",
