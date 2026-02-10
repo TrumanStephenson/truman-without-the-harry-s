@@ -106,7 +106,7 @@ body {
   color: #FFFFFF;
 }
 .portfolio-section p {
-  flex: 1;
+  flex: 1 1 0;
   font-size: 25px;
 }
 .portfolio-section-beginning {
@@ -123,6 +123,23 @@ body {
   text-align: center;
   font-size: 40px;
 }
+.other-links {
+  text-decoration: none;
+  color: #5D7B5F;
+}
+.other-links:hover {
+  color: #3d513f;
+}
+.netlify {
+  height: 1em;
+  width: auto;
+  vertical-align: -0.15em;
+  display: inline-block;
+}
+/* .tree-figure pre {
+  margin: 0;
+  color: #bbb;
+} */
 
 
 /* Frog image at the bottom. Wil take you to Roy Henry Vickers, the orginal artist. */
