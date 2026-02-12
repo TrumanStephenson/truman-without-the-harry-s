@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/assets/style/style.css">
+        <link rel="icon" href="assets/images/salmon-logo-x32.png" type="image/png"><!-- icon location : https://pngset.com/download-free-png-apdwj -->
         <title>Not The Truman Show</title>
     </head>
     <body>
@@ -29,45 +30,16 @@
                 </div>
             </nav>
         </header>
-        <main>
-            
-             <form id="contactForm" novalidate>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" id="firstName" name="firstName" class="form-input" required>
-                            <div class="error-message"></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" id="lastName" name="lastName" class="form-input" required>
-                            <div class="error-message"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" id="email" name="email" class="form-input" required>
-                        <div class="error-message"></div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="company" class="form-label">Company</label>
-                        <input type="text" id="company" name="company" class="form-input">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" name="message" class="form-textarea" required></textarea>
-                        <div class="error-message"></div>
-                    </div>
-                    
-                    <button type="submit" class="submit-btn">
-                        Send Message
-                    </button>
-                </form>
+        
+    <main class="contact-main">
+        <!-- 
+            The entire form was created by Javascript! 
+            Excluding the Styling of course.
+        -->
+        <form action="" id="contact-form" novalidate></form>
+        <div id="result" aria-live="polite"></div>
+    </main>
 
-        </main>
     </body>
-    <script src="/assets/script/scripts.js"></script>
+    <script src="..\assets\script\contact-form.js"></script>
 </html>

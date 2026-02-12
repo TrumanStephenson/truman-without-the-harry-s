@@ -136,11 +136,6 @@ body {
   vertical-align: -0.15em;
   display: inline-block;
 }
-/* .tree-figure pre {
-  margin: 0;
-  color: #bbb;
-} */
-
 
 /* Frog image at the bottom. Wil take you to Roy Henry Vickers, the orginal artist. */
 /* .tlingit-frog {
@@ -333,6 +328,9 @@ a.active {
 .parallax-yellow-cedar {
   background-image: url("https://imgs.search.brave.com/e4zSYZKHte5di25AIQWO6mE2PcIivMd1EgKZIwYQZq0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vdGltZW5z/cGFjZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzL1RvdGVtX1Ry/b3QvTUpSXzk4NThf/SERSLUVkaXQuanBn/P3Jlc2l6ZT02MTAs/NDAyJnNzbD0x");
 }
+.parallax-craig {
+  background-image: url("../images/craig-ak-1.JPG");
+}
 
 
 /* Java Terminal Style */
@@ -376,4 +374,38 @@ a.active {
   margin-top: 10px; 
   font-size: 0.9rem; 
   color: #ccc;
+}
+
+/* Contact page */
+#contact-form {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.sr-only {
+  color: orange;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+#message, .name {
+  padding: 10px;
+}
+.error {
+  color: red !important;
+  font-size: 0.9rem;
+  margin: 5px 25px;
+}
+#submit-btn {
+  background-color: #5D7B5F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+input, textarea, select, button {
+  font: inherit;
+  cursor: pointer;
 }
