@@ -333,6 +333,9 @@ a.active {
 .parallax-yellow-cedar {
   background-image: url("https://imgs.search.brave.com/e4zSYZKHte5di25AIQWO6mE2PcIivMd1EgKZIwYQZq0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vdGltZW5z/cGFjZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzL1RvdGVtX1Ry/b3QvTUpSXzk4NThf/SERSLUVkaXQuanBn/P3Jlc2l6ZT02MTAs/NDAyJnNzbD0x");
 }
+.parallax-craig {
+  background-image: url("../images/craig-ak-1.JPG");
+}
 
 
 /* Java Terminal Style */
