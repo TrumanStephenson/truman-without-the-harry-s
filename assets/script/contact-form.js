@@ -60,7 +60,7 @@
         label: 'Message',
         textarea: true,
         required: true,
-        attrs: { placeholder: 'Any questions or inquiries? I will try to accomodate.' }
+        attrs: { placeholder: "Let's talk!" }
       });
 
       form.append(nameFld.wrap, emailFld.wrap, msgFld.wrap);

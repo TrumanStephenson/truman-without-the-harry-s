@@ -164,9 +164,14 @@ nav {
 }
 a.active {
     pointer-events: none;
-    cursor: default;
+    cursor: pointer;
     color: #5D7B5F;
     text-decoration: underline;
+}
+.sub-active {  
+  cursor: pointer;
+  color: #5D7B5F !important;
+  text-decoration: none;
 }
 .menu {
   width: 30px;
@@ -384,6 +389,12 @@ a.active {
   margin: 0 auto;
   max-width: 900px;
 }
+.extra-links {
+  max-width: 900px;
+  margin: 0 auto;
+  border: none;
+  text-decoration: none;
+}
 .sr-only {
   color: orange;
 }
@@ -391,7 +402,12 @@ a.active {
   display: flex;
   flex-direction: column;
 }
-#message, .name {
+#message, 
+.name {
+  padding: 10px;
+}
+#email,
+#name {
   padding: 10px;
 }
 .error {
@@ -404,8 +420,20 @@ a.active {
   color: white;
   border: none;
   padding: 10px 20px;
+  border-radius: 25px;
+}
+#submit-btn:hover {
+  background-color: #3d513f;
+}
+.icons8 {
+  color: #5D7B5F;
+  text-decoration: none;
+  padding-left: 85px;
 }
 input, textarea, select, button {
   font: inherit;
   cursor: pointer;
+  border: none;
+  border-radius: 9px;
+  resize: none;
 }
